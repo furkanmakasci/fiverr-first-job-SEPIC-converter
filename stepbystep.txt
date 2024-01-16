@@ -7,6 +7,7 @@
       -You may not need to change coupling capacitor frequently, may be no benefit to it
             -Keep other power stage values the same, increase coupling capacitor until you have the same decreased voltage after attaching load.
             -After you don't have different outcome, keep coupling capacitor values.
-4- After output is stabilized
+4- After output is stabilized, put current power stage values to hand input values, get the compensation network values, put this values to circuit.
+5- If transient respond and output voltage ripple satisfies you. It is done. If not change compensator values slightly (trial and error).
                   
                
