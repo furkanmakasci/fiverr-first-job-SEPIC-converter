@@ -5,12 +5,12 @@
 3- If not, increase the power stage values - inductors and capacitor values(except coupling cap) without changing compensator network until converter can 
    supply required power
    
-   -You can understand it converter can supply required power --> After attaching the load to output, output voltage or output voltage signal should stay the same after a          short time
+   1-You can understand it converter can supply required power --> After attaching the load to output, output voltage or output voltage signal should stay the same after a          short time
 
-   -Why no need to change compensator network --> Because in this step we don't to worry about regulation, we worry if converter supply the power we require so don't need to 
+   2-Why no need to change compensator network --> Because in this step we don't to worry about regulation, we worry if converter supply the power we require so don't need to 
     change compensator network but, you can put hand input values and change compensation network according to new values every time you increase values.
 
-   -After you have demanded output but there is high ripple at output, just increase output capacitor until you get 1-2% Vripple at output. Don't change inductor values, no        need for it at this point.
+   3-After you have demanded output but there is high ripple at output, just increase output capacitor until you get 1-2% Vripple at output. Don't change inductor values, no        need for it at this point.
 
 4-(from application note) The flying capacitor is chosen so that its ripple voltage is no more than 5% of the maximum input voltage. So you can raise until voltage difference on capacitors two leg. You ll get a sinus signal like ripple current of inductors. Until you get max input voltage*1.05 difference on sinus signal peaks you should increase it. I added calculations to excel. You can check for more --> snvaa43, snva168e
 
