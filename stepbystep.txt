@@ -6,6 +6,7 @@
        but, you can put hand input values and change compensation network according to new values every time you increase values
       -You may not need to change coupling capacitor frequently, may be no benefit to it
             -Keep other power stage values the same, increase coupling capacitor until you have the same decreased voltage after attaching load.
-            -
+            -After you don't have different outcome, keep coupling capacitor values.
+4-
                   
                
