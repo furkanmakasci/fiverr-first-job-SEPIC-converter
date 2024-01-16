@@ -1,7 +1,9 @@
 1- Put input and output values, switching frequency .... to excel file
 2- Take the output values and implement in real life or on simulation to see if the power stage can satisfied demanded power from output
 3- If not, increase the power stage - inductors and capacitor values without changing compensator network until converter can supply required power
-      -You can understand it --> After, attaching the load output voltage should stay the same.
-      -You may not need to change coupling capacitor frequently, may be no benefit to it.
+      -You can understand it converter can supply required power --> After attaching the load to output, output voltage or output voltage signal should stay the same after a short time
+      -Why no need to change compensator network --> Because in this step we don't worry about regulation, we worry if converter supply the power we require so don't need to change compensator network
+       but, you can put hand input values and change every time you raise output
+      -You may not need to change coupling capacitor frequently, may be no benefit to it
                -Keep other power stage values the same, increase coupling capacitor until you have the same decreased voltage after attaching load
-               -
+               
